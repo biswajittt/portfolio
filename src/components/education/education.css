@@ -1,0 +1,231 @@
+.bd_education {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffd23c;
+    /* background-image: linear-gradient(270deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.bd_education_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.line-on-education {
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    border-color: #b851c2;
+}
+
+.bd_education_header-title {
+    color: #353535;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.bd_education_header-img {
+    width: 29vw;
+    position: relative;
+    animation-name: headerImgAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes headerImgAnimation {
+    0% {
+        /* background-color: red; */
+        /* left: 0px; */
+        top: -15px;
+    }
+
+    /* 25% {
+        background-color: yellow;
+        top: 40px;
+    } */
+
+    50% {
+        /* background-color: blue; */
+        /* left: 200px; */
+        top: 20px;
+    }
+
+    /* 75% {
+        background-color: green;
+        top: 40px;
+    } */
+
+    100% {
+        /* background-color: red; */
+        /* left: 0px; */
+        top: -15px;
+    }
+}
+
+.bd_skills_firstColumn-skills-Header-sub-title {
+    color: black;
+}
+
+.bd_education-containers {
+    /* position: relative;
+    left: 155px; */
+    display: inline-block;
+}
+
+.line {
+    /* top: -14px; */
+    width: 34rem;
+    /* height: 47px; */
+    border-bottom: 2px solid black;
+    position: relative;
+}
+
+.bd_education-containers-college_details {
+    letter-spacing: -0.5px;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: #000000;
+    padding-top: 11px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    line-height: 36px;
+}
+
+.number {
+    font-size: 23px;
+    color: #353535;
+    font-weight: bold;
+}
+
+.instituteInfo {
+    width: 421px;
+    word-wrap: break-word;
+    color: #353535;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.instituteName {
+    color: #353535;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.course {
+    color: #4e4e4e;
+    font-size: 18px;
+}
+
+.marks {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.bd_education-containers-school_details {
+    letter-spacing: -0.5px;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: #000000;
+    padding-top: 11px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    line-height: 36px;
+}
+
+/* for small laptop */
+@media screen and (max-width:1024px) {
+    .bd_education_header-title {
+        font-size: 40px;
+    }
+
+    .number {
+        font-size: 27px;
+    }
+
+    .instituteName {
+        font-size: 25px;
+    }
+
+    .course {
+        font-size: 20px;
+        opacity: 0.7;
+    }
+
+    .marks {
+        font-size: 20px;
+        opacity: 0.8;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .bd_education {
+        flex-direction: column;
+    }
+
+    .bd_education_header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line-on-education {
+        width: 16rem;
+    }
+
+    .bd_education_header-img {
+        width: 66vw;
+        margin-bottom: 40px;
+    }
+}
+
+/* for ipad */
+@media screen and (max-width:768px) {
+    .bd_education_header-title {
+        font-size: 35px;
+    }
+
+    .number {
+        font-size: 22px;
+    }
+
+    .instituteName {
+        font-size: 25px;
+    }
+
+    .course {
+        font-size: 18px;
+        opacity: 0.7;
+    }
+
+    .marks {
+        font-size: 18px;
+        opacity: 0.8;
+    }
+}
+
+/* for mobile */
+@media screen and (max-width:480px) {
+    .bd_education_header-title {
+        font-size: 30px;
+    }
+
+    .number {
+        font-size: 18px;
+    }
+
+    .instituteName {
+        font-size: 20px;
+    }
+
+    .course {
+        font-size: 15px;
+        opacity: 0.7;
+    }
+
+    .marks {
+        font-size: 15px;
+        opacity: 0.8;
+    }
+}

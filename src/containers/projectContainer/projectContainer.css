@@ -1,0 +1,94 @@
+.bd_project-container_section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header line */
+.bd_project-container_section_line {
+    width: auto;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+/* data */
+.bd_project-container_section_data {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+/* header- title and link */
+.bd_project-container_section_data-header {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.bd_project-container_section_data-header p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* link */
+.bd_project-container_section_data-header_link {
+    /* width: 10px;
+    height: 10px; */
+    margin-left: 20px;
+    transform: rotate(45deg);
+    border-radius: 40%;
+    padding: 8px;
+    background-color: #4158D0;
+    background-image: linear-gradient(270deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+/* subtitle */
+.bd_project-container_section_data-subtitle {
+    font-size: 16px;
+    color: #1b1b1b;
+    margin-bottom: 27px;
+}
+
+/* image */
+.bd_project-container_section_data-image img {
+    width: 25vw;
+    height: 29vh;
+    background: #ffc400;
+    box-shadow: 7px 7px 16px 3px black;
+    padding: 6px;
+    border-radius: 45px 6px 52px 6px;
+}
+
+@media screen and (max-width:1136px) {
+    .bd_project-container_section_data-image img {
+        width: 23vw;
+        height: 26vh;
+    }
+}
+
+@media screen and (max-width:923px) {
+    .bd_project-container_section_data-image img {
+        width: 22vw;
+        height: 23vh;
+    }
+}
+
+@media screen and (max-width:887px) {
+    .bd_project-container_section_data-image img {
+        width: auto;
+        height: 32vh;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .bd_project-container_section_data-image img {
+        width: auto;
+        height: 23vh;
+    }
+}
+
+@media screen and (max-width:391px) {
+    .bd_project-container_section_data-image img {
+        width: 73vw;
+        height: 23vh;
+    }
+}

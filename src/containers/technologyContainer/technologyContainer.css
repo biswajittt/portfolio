@@ -1,0 +1,13 @@
+.bd_technology-container {
+    line-height: 23px;
+}
+
+
+.bd_technology-container img {
+    width: 3vw;
+}
+
+.bd_technology-container p {
+    font-size: 18px;
+    margin-bottom: 9px;
+}

@@ -1,0 +1,124 @@
+.bd_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.bd_navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bd_navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.bd_navbar-links_logo img {
+    border-radius: 9px;
+    width: 69%;
+}
+
+.bd_navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.bd_navbar-links_container p,
+.bd_navbar-menu_container-links p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.bd_navbar-contact button,
+.bd_navbar-menu_container-links-contact button {
+    padding: 0.1rem 1rem;
+    background-color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 22px;
+}
+
+.bd_navbar-contact button:hover,
+.bd_navbar-menu_container-links-contact button:hover {
+    background-color: rgb(246, 246, 246);
+}
+
+.bd_navbar-menu_container-links-contact button {
+    margin-top: 7px;
+}
+
+.bd_navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+    z-index: 2;
+}
+
+.bd_navbar-menu_container {
+    background: #fafafa;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 29px;
+    margin-top: 1rem;
+    min-width: 145px;
+    border-radius: 26px;
+}
+
+.bd_navbar-menu_container-contact {
+    display: none;
+}
+
+@media screen and (max-width:1050px) {
+    .bd_navbar-links_container {
+        display: none;
+    }
+
+    .bd_navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bd_navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .bd_navbar {
+        padding: 2rem;
+    }
+
+    .bd_navbar-contact {
+        display: none;
+    }
+
+    .bd__navbar-menu_container {
+        top: 20px;
+    }
+
+    .bd_navbar-menu_container-links-contact {
+        display: block;
+    }
+
+
+}

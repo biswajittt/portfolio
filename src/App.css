@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: var(--font-family);
+}
+
+body {
+  /* background: var(--color-bg); */
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.bd_header {
+  margin-top: 10px;
+}
+
+@media screen and (min-width:1024px) {
+  .header-title {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .header-title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .header-title {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .header-title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width:310px) {
+  .section__padding {
+    padding: 1rem;
+  }
+}

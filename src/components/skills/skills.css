@@ -1,0 +1,466 @@
+.bd_skills {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* first row */
+.bd_skills_firstRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+
+
+.line {
+    width: auto;
+    border-bottom: 2px solid black;
+    position: relative;
+    margin-bottom: 14px;
+}
+
+.bd_skills_firstRow-skills-Header {
+    margin-bottom: 55px;
+    width: 28vw;
+    word-break: break-word;
+}
+
+.bd_skills_firstRow-skills-Header-title {
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.bd_skills_firstRow-skills-Header-sub-title {
+    display: flex;
+    font-size: 17px;
+    color: #878787;
+    align-items: baseline;
+    margin-top: 16px;
+}
+
+.line-on-skills {
+    width: 3rem;
+    border-bottom: 3px solid #898989;
+    position: relative;
+    margin-right: 17px;
+}
+
+
+/* // */
+.bd_skills_firstRow-experience {
+    width: 45vw;
+}
+
+.bd_skills_firstRow-experience_header-title {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.bd_skills_firstRow-experience_container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.time-duration {
+    color: black;
+    font-size: 18px;
+}
+
+.bd_skills_firstRow-experience_container-data {
+    display: flex;
+    flex-direction: column;
+    margin-left: 38px;
+}
+
+.role {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.company-name {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.bd_skills_firstRow-contribution_container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bd_skills_firstRow-contribution_container-title {
+    color: black;
+    font-size: 18px;
+}
+
+.bd_skills_firstRow-contribution_container-data {
+
+    margin-left: 125px;
+
+}
+
+.bd_skills_firstRow-contribution_container-data ul li {
+    font-size: 18px;
+
+}
+
+/* second row */
+.bd_skills_secondRow {
+    display: flex;
+    flex-direction: row;
+    line-height: 39px;
+    justify-content: space-between;
+}
+
+
+.bd_skills_secondRow-skills-container_header-title {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.bd_skills_secondRow-skills-container_technology-list_grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px 10px;
+}
+
+.bd_skills_secondRow-image img {
+    margin-top: 26px;
+    width: 40vw;
+    height: 84vh;
+}
+
+/* for ipad */
+@media screen and (max-width:1024px) {
+    .bd_skills_firstRow-skills-Header-title {
+        font-size: 40px;
+    }
+
+    .bd_skills_firstRow-experience_header-title {
+        font-size: 35px;
+    }
+
+    .bd_skills_secondRow-skills-container_header-title {
+        font-size: 35px;
+    }
+
+    .role {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+
+    .bd_skills_firstRow-contribution_container-data {
+        margin-left: 111px;
+    }
+
+    .bd_technology-container img {
+        width: 5vw;
+    }
+
+    .bd_technology-container p {
+        font-size: 25px;
+        margin-bottom: 9px;
+    }
+}
+
+@media screen and (max-width:964px) {
+    .bd_skills_firstRow {
+        margin-bottom: 0;
+    }
+
+    .bd_skills_firstRow-skills-Header-title {
+        font-size: 50px;
+    }
+
+    .bd_skills_firstRow-experience {
+        width: 42vw;
+    }
+
+    .bd_skills_firstRow-experience_header-title {
+        font-size: 35px;
+        margin-bottom: 22px;
+    }
+
+    .time-duration {
+        font-size: 16px;
+    }
+
+    .role {
+        font-size: 21px;
+    }
+
+    .company-name {
+        font-size: 16px;
+    }
+
+    .bd_skills_firstRow-contribution_container-title {
+        font-size: 16px;
+    }
+
+    .bd_skills_firstRow-contribution_container-data ul li {
+        font-size: 16px;
+    }
+
+    .bd_skills_secondRow-skills-container_header-title {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .bd_skills_secondRow-image img {
+        width: 37vw;
+        height: 79vh;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .bd_skills_secondRow-image img {
+        width: 31vw;
+        height: 79vh;
+    }
+}
+
+@media screen and (max-width:795px) {
+    .bd_skills_firstRow-skills-Header-title {
+        font-size: 40px;
+    }
+
+    /* .bd_skills_firstRow-experience {
+        width: 42vw;
+    } */
+
+    .bd_skills_firstRow-skills-Header-sub-title {
+        font-size: 15px;
+    }
+
+    .bd_skills_firstRow-experience_header-title {
+        font-size: 26px;
+        margin-bottom: 17px;
+    }
+
+    .time-duration {
+        font-size: 14px;
+    }
+
+    .role {
+        font-size: 19px;
+    }
+
+    .company-name {
+        font-size: 15px;
+    }
+
+    .bd_skills_firstRow-contribution_container-title {
+        font-size: 15px;
+    }
+
+    .bd_skills_firstRow-contribution_container-data ul li {
+        font-size: 15px;
+    }
+
+    .bd_skills_secondRow-skills-container_header-title {
+        font-size: 26px;
+    }
+
+    .bd_skills_secondRow-image img {
+        width: 31vw;
+        height: 79vh;
+    }
+}
+
+/* for ipad */
+@media screen and (max-width:768px) {
+    .bd_skills_firstRow-skills-Header-title {
+        font-size: 35px;
+    }
+
+    .bd_skills_firstRow-experience_header-title {
+        font-size: 30px;
+    }
+
+    .bd_skills_secondRow-skills-container_header-title {
+        font-size: 30px;
+    }
+
+    .role {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .bd_skills_firstRow-contribution_container-data {
+        margin-left: 66px;
+    }
+
+    .bd_technology-container img {
+        width: 5vw;
+    }
+
+    .bd_technology-container p {
+        font-size: 20px;
+        margin-bottom: 9px;
+    }
+}
+
+@media screen and (max-width:715px) {
+    .bd_skills_firstRow {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .bd_skills_firstRow-skills-Header {
+        width: auto;
+    }
+
+    .bd_skills_firstRow-experience {
+        width: auto;
+    }
+
+    .bd_skills_firstRow {
+        margin-bottom: 31px;
+    }
+
+    .bd_skills_secondRow {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .bd_skills_secondRow-skills-container_technology-list_grid-container {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .bd_skills_secondRow-image img {
+        width: 66vw;
+        height: 63vh;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .bd_skills_secondRow-skills-container_technology-list_grid-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px 28px;
+    }
+}
+
+@media screen and (max-width:591px) {
+    .bd_skills_secondRow-skills-container_technology-list_grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px 50px;
+    }
+}
+
+@media screen and (max-width:533px) {
+    .bd_skills_secondRow-skills-container_technology-list_grid-container {
+
+        gap: 0px 20px;
+    }
+}
+
+/* for mobile */
+
+@media screen and (max-width:480px) {
+    .bd_skills_firstRow-skills-Header-title {
+        font-size: 30px;
+    }
+
+    .bd_skills_firstRow-experience_header-title {
+        font-size: 25px;
+    }
+
+    .bd_skills_secondRow-skills-container_header-title {
+        font-size: 25px;
+    }
+
+
+    .role {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .bd_skills_firstRow-contribution_container-data {
+        margin-left: 66px;
+    }
+
+    .bd_technology-container img {
+        width: 6vw;
+    }
+
+    .bd_technology-container p {
+        font-size: 15px;
+        margin-bottom: 9px;
+    }
+}
+
+
+@media screen and (max-width:477px) {
+    .bd_skills_secondRow-skills-container_technology-list_grid-container {
+        gap: 0px 20px;
+    }
+
+    .bd_skills_secondRow-image img {
+        height: 40vh;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:389px) {
+    .bd_skills_secondRow-skills-container_technology-list_grid-container {
+        gap: 0px 22px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width:355px) {
+    .bd_skills_firstRow-experience_container-data {
+        margin-left: 13px;
+    }
+
+    .bd_skills_firstRow-contribution_container-data {
+        margin-left: 77px;
+    }
+}
+
+@media screen and (max-width:336px) {
+    .bd_skills_firstRow-contribution_container-data {
+        margin-left: 44px;
+    }
+
+    .bd_technology-container img {
+        width: 8vw;
+    }
+
+    .bd_technology-container p {
+        font-size: 17px;
+        margin-bottom: 14px;
+    }
+
+    .bd_skills_secondRow-skills-container_technology-list_grid-container {
+        gap: 0px 17px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:284px) {
+    .bd_skills_firstRow-contribution_container {
+        flex-direction: column;
+    }
+
+    .bd_skills_firstRow-contribution_container-title {
+        margin-bottom: 11px;
+    }
+
+    .bd_skills_firstRow-contribution_container-data {
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,328 @@
+.bd_contact {
+    /* height: 100vh;
+    width: 100%;
+    background-image: url('../../assets/background/ContactPageBg.svg');
+    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+}
+
+.bd_contact-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* header */
+.bd_contact-header_contact-details {}
+
+.bd_contact_title {
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 7rem;
+}
+
+.bd_contact-header_contact-details_line {
+    width: auto;
+    border: 1px solid black;
+}
+
+/* email conatainer */
+.bd_contact-header_contact-details_email-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bd_contact-header_contact-details_email-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bd_contact-header_contact-details_email-data img {
+    width: 3vw;
+    height: 14vh;
+}
+
+.bd_contact-header_contact-details_email {
+    padding: 30px;
+}
+
+.bd_contact-header_contact-details_email p {
+    font-size: 18px;
+    color: #878787;
+    font-weight: 500;
+}
+
+.bd_contact-header_contact-details_email h2 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* linkedin container */
+.bd_contact-header_contact-details_linkedin-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bd_contact-header_contact-details_linkedin-data {
+    display: flex;
+    flex-direction: row;
+}
+
+.bd_contact-header_contact-details_linkedin-data img {
+    width: 3vw;
+    height: 14vh;
+}
+
+.bd_contact-header_contact-details_linkedin {
+    padding: 30px;
+}
+
+.bd_contact-header_contact-details_linkedin p {
+    font-size: 18px;
+    color: #878787;
+    font-weight: 500;
+}
+
+.bd_contact-header_contact-details_linkedin h2 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+/* right container */
+.bd_contact-header_image {}
+
+.bd_contact-header_image img {
+    position: relative;
+    width: 48vw;
+    top: -128px;
+}
+
+/* footer */
+.bd_contact-footer {
+    margin-top: 10px;
+}
+
+.bd_contact-footer_line {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.bd_contact-footer_content {
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1211px) {
+    .bd_contact_title {
+        margin-bottom: 5rem;
+    }
+
+    .bd_contact-header_image img {
+        top: -131px;
+    }
+}
+
+/* for small laptop */
+@media screen and (max-width:1024px) {
+    .bd_contact_title {
+        font-size: 40px;
+    }
+
+    .bd_contact-header_contact-details_email-data img {
+        width: 4vw;
+        height: 8vh;
+    }
+
+    .bd_contact-header_contact-details_email {
+        padding: 11px;
+    }
+
+    .bd_contact-header_contact-details_email p {
+        font-size: 15px;
+    }
+
+    .bd_contact-header_contact-details_email h2 {
+        font-size: 20px;
+    }
+
+    .bd_contact-header_contact-details_linkedin {
+        padding: 11px;
+    }
+
+    .bd_contact-header_contact-details_linkedin-data img {
+        width: 4vw;
+        height: 8vh;
+    }
+
+    .bd_contact-header_contact-details_linkedin p {
+        font-size: 15px;
+    }
+
+    .bd_contact-header_contact-details_linkedin h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:986px) {
+
+    .bd_contact-header_contact-details_email {
+        padding: 13px;
+    }
+
+    .bd_contact-header_contact-details_email p {
+        font-size: 18px;
+    }
+
+    .bd_contact-header_contact-details_email h2 {
+        font-size: 22px;
+    }
+
+    .bd_contact-header_contact-details_linkedin {
+        padding: 13px;
+    }
+
+    .bd_contact-header_contact-details_linkedin p {
+        font-size: 18px;
+    }
+
+    .bd_contact-header_contact-details_linkedin h2 {
+        font-size: 22px;
+    }
+
+    .bd_contact-header_image img {
+        width: 46vw;
+    }
+}
+
+@media screen and (max-width:827px) {
+
+    .bd_contact-header {
+        flex-direction: column-reverse;
+    }
+
+    .bd_contact-header_image img {
+        position: static;
+    }
+
+    .bd_contact_title {
+        margin-bottom: 2rem;
+    }
+
+    .bd_contact-header_image img {
+        width: 52vw;
+        margin-bottom: 24px;
+    }
+
+    .bd_contact-header_contact-details_email-data {
+        justify-content: flex-start;
+    }
+
+    .bd_contact-header_contact-details_email-data img {
+        width: 8vw;
+        height: 10vh;
+    }
+
+    .bd_contact-header_contact-details_linkedin-data img {
+        width: 8vw;
+        height: 10vh;
+    }
+
+    .bd_contact-footer {
+        margin-top: 85px;
+    }
+}
+
+@media screen and (max-width:545px) {
+    .bd_contact-header_contact-details_email-data img {
+        width: 8vw;
+        height: 9vh;
+    }
+
+    .bd_contact-header_contact-details_email p {
+        font-size: 15px;
+    }
+
+    .bd_contact-header_contact-details_email h2 {
+        font-size: 18px;
+    }
+
+    .bd_contact-header_contact-details_linkedin p {
+        font-size: 15px;
+    }
+
+    .bd_contact-header_contact-details_linkedin h2 {
+        font-size: 18px;
+    }
+}
+
+/* for ipad */
+@media screen and (max-width:768px) {
+    .bd_contact_title {
+        font-size: 35px;
+    }
+
+    .bd_contact-header_contact-details_email-data img {
+        width: 7vw;
+        height: 8vh;
+    }
+
+    .bd_contact-header_contact-details_email p {
+        font-size: 19px;
+    }
+
+    .bd_contact-header_contact-details_email h2 {
+        font-size: 21px;
+    }
+
+}
+
+/* for mobile */
+@media screen and (max-width:480px) {
+    .bd_contact_title {
+        font-size: 30px;
+    }
+
+    .bd_contact-header_contact-details_email-data img {
+        width: 7vw;
+        height: 8vh;
+    }
+
+    .bd_contact-header_contact-details_email p {
+        font-size: 14px;
+    }
+
+    .bd_contact-header_contact-details_email h2 {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:348px) {
+    .bd_contact-header_contact-details_email-data img {
+        width: 8vw;
+        height: 9vh;
+    }
+
+    .bd_contact-header_contact-details_email p {
+        font-size: 13px;
+    }
+
+    .bd_contact-header_contact-details_email h2 {
+        word-wrap: break-word;
+        font-size: 16px;
+        width: 54vw;
+    }
+
+    .bd_contact-header_contact-details_linkedin p {
+        font-size: 13px;
+    }
+
+    .bd_contact-header_contact-details_linkedin h2 {
+        font-size: 16px;
+    }
+}

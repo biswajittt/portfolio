@@ -1,0 +1,78 @@
+.bd_project {
+    background-color: #ffd23c;
+}
+
+.bd_project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* first project */
+.bd_project-container_first-project {
+    display: flex;
+    flex-direction: column;
+}
+
+.bd_project-container-title {
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 12rem;
+}
+
+/* second project */
+.bd_project-container_second-project {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 23px;
+}
+
+/* third project */
+.bd_project-container_third-project {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 23px;
+}
+
+/* for small laptop */
+
+@media screen and (max-width:1024px) {
+    .bd_project-container-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:887px) {
+    .bd_project-container {
+        flex-direction: column;
+    }
+
+    .bd_project-container-title {
+        margin-bottom: 5rem;
+    }
+
+    .bd_project-container_section_data-image img {
+        width: auto;
+        height: 36vh;
+    }
+
+    .bd_project-container_second-project {
+        margin-top: 5rem;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .bd_project-container-title {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .bd_project-container-title {
+        font-size: 30px;
+    }
+}
