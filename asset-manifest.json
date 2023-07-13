@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.513fa071.css",
+    "main.js": "/portfolio/static/js/main.b4a640ac.js",
+    "static/media/myImg1.png": "/portfolio/static/media/myImg1.4a53f2a186bb7296b58b.png",
+    "static/media/ChatGpt.png": "/portfolio/static/media/ChatGpt.140e2a2a70ad089ef135.png",
+    "static/media/learnerby.png": "/portfolio/static/media/learnerby.99aabd8f48ff5468a219.png",
+    "static/media/hireImg.png": "/portfolio/static/media/hireImg.8ce5de07a0b526270050.png",
+    "static/media/hero.png": "/portfolio/static/media/hero.b51abd542fad0569d674.png",
+    "static/media/CV_Biswajit_Debnath.pdf": "/portfolio/static/media/CV_Biswajit_Debnath.9d5ae938fa7515e957c5.pdf",
+    "static/media/forum.png": "/portfolio/static/media/forum.f720c58f1b626957102b.png",
+    "static/media/skillsBg.svg": "/portfolio/static/media/skillsBg.e7fd0478451b8d72ff9b93b1ea475b66.svg",
+    "static/media/setting.gif": "/portfolio/static/media/setting.f4abf7f41047a3bd6d7a.gif",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.375093d58bacaaabe769.png",
+    "static/media/github.png": "/portfolio/static/media/github.7acde23236a5c7507398.png",
+    "static/media/html.gif": "/portfolio/static/media/html.5c5af4d5a69c354a7d28.gif",
+    "static/media/gmail.png": "/portfolio/static/media/gmail.fb40ba453fc2c2e9a4ad.png",
+    "static/media/ContactPageBg.svg": "/portfolio/static/media/ContactPageBg.1d60f701d60899768f57.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.131c644dc4d1bd25f4b26bf765a33c21.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/email.svg": "/portfolio/static/media/email.abaa18bae7052b7880788fd440283259.svg",
+    "static/media/arrow-up.svg": "/portfolio/static/media/arrow-up.682a04061e49c45f5a7c020d23e25130.svg",
+    "main.513fa071.css.map": "/portfolio/static/css/main.513fa071.css.map",
+    "main.b4a640ac.js.map": "/portfolio/static/js/main.b4a640ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.513fa071.css",
+    "static/js/main.b4a640ac.js"
+  ]
+}
