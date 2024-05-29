@@ -100,22 +100,25 @@ body {
 .work-hireme-button {
   margin-bottom: 4rem;
 }
-.my-work-btn {
+.hire-me-btn {
+  color: black;
   background-color: #bd93f9;
   font-weight: bold;
-  font-size: 16px;
-  padding: 10px 13px 10px 13px;
+  font-size: 14px;
+  padding: 8px 13px 8px 13px;
   border-radius: 14px;
-  margin-right: 27px;
+  margin-right: 15px;
+  text-decoration: none;
 }
-.hire-me-btn {
+.my-resume-btn {
   color: #bd93f9;
   border: 2px solid #bd93f9;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   padding: 6px 12px 6px 12px;
   border-radius: 14px;
   margin-right: 27px;
+  text-decoration: none;
 }
 .vertical-line {
   border-left: 2px solid #776295;
@@ -132,8 +135,12 @@ body {
   color: #5c6b9a;
   font-size: 17px;
 }
-.social-logo li i {
+.social-logo li a {
+  text-decoration: none;
   cursor: pointer;
+  color: #5c6b9a;
+}
+.social-logo li i {
 }
 .home-right-img {
   width: 38rem;
@@ -602,11 +609,11 @@ body {
     display: none;
   }
   /* homr right */
-  .my-work-btn {
+  .hire-me-btn {
     font-size: 13px;
     margin-right: 13px;
   }
-  .hire-me-btn {
+  .my-resume-btn {
     font-size: 14px;
   }
   .home-right {
@@ -658,11 +665,11 @@ body {
   .my-name {
     font-size: 1.8rem;
   }
-  .my-work-btn {
+  .hire-me-btn {
     font-size: 12px;
     margin-right: 11px;
   }
-  .hire-me-btn {
+  .my-resume-btn {
     font-size: 14px;
   }
   /* projects */
@@ -776,11 +783,11 @@ body {
 
 @media only screen and (max-width: 440px) {
   /* home left */
-  .my-work-btn {
+  .hire-me-btn {
     font-size: 11px;
     margin-right: 11px;
   }
-  .hire-me-btn {
+  .my-resume-btn {
     font-size: 13px;
   }
   .greeting {
