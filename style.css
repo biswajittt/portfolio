@@ -9,12 +9,47 @@ body {
   /* padding: 1rem 2rem 1rem 2rem; */
   font-family: "Poppins";
 }
-.nav-bar {
+.navbar {
   background-color: #282a36;
   position: fixed;
   top: 0;
 }
-.nav-content {
+#navbar {
+  overflow: hidden;
+  background-color: #282a36;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+#navbar #logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+#navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#navbar a:hover {
+  /* background-color: #ddd; */
+  color: lightgrey;
+}
+
+#navbar-right {
+  float: right;
+}
+/* .nav-content {
   display: flex;
   justify-content: space-between;
 }
@@ -32,7 +67,7 @@ body {
   margin-left: 10px;
   font-size: 14px;
   font-weight: bold;
-}
+} */
 
 .home {
   padding: 1rem 2rem 1rem 2rem;
@@ -97,6 +132,9 @@ body {
   color: #5c6b9a;
   font-size: 17px;
 }
+.social-logo li i {
+  cursor: pointer;
+}
 .home-right-img {
   width: 38rem;
   margin-top: 1rem;
@@ -153,14 +191,10 @@ body {
 }
 .project-container {
   display: grid;
-  /* height: 30rem; */
   background-color: #2f303a;
-  border-bottom-right-radius: 7rem;
   padding: 2rem;
   grid-template-columns: auto auto auto;
   gap: 16px;
-  /* box-shadow: inset -3px -3px 7px #1d1d1db0,
-    inset 3px 3px 5px rgb(33 33 33 / 69%); */
 }
 .project-card {
   padding: 1rem;
@@ -200,6 +234,7 @@ body {
   border-radius: 15px;
   margin-right: 10px;
   text-decoration: none;
+  color: black;
 }
 
 .skills {
@@ -508,6 +543,15 @@ body {
   }
 }
 @media only screen and (max-width: 923px) {
+  /* navbar */
+  #navbar a {
+    padding: 11px;
+    font-size: 14px;
+  }
+  /* home left */
+  .my-name {
+    font-size: 2rem;
+  }
   /* homr right */
   .home-right-img {
     width: 27rem;
@@ -524,8 +568,26 @@ body {
       margin-top: 9rem;
     }
   }
-
+  /* projects */
+  .project-header-title {
+    font-size: 1.5rem;
+  }
+  /* skills */
+  .skills-header-title {
+    font-size: 1.5rem;
+  }
+  /* internsips */
+  .internships-header-title {
+    font-size: 1.5rem;
+  }
+  /* education */
+  .education-header-title {
+    font-size: 1.5rem;
+  }
   /* contact */
+  .contact-header-title {
+    font-size: 1.5rem;
+  }
   .contact-container {
     width: 55%;
   }
@@ -535,7 +597,18 @@ body {
   }
 }
 @media only screen and (max-width: 850px) {
+  /* navbar */
+  #navbar-right {
+    display: none;
+  }
   /* homr right */
+  .my-work-btn {
+    font-size: 13px;
+    margin-right: 13px;
+  }
+  .hire-me-btn {
+    font-size: 14px;
+  }
   .home-right {
     display: none;
   }
@@ -577,6 +650,21 @@ body {
 }
 
 @media only screen and (max-width: 640px) {
+  /* home left */
+
+  .greeting {
+    font-size: 1.5rem;
+  }
+  .my-name {
+    font-size: 1.8rem;
+  }
+  .my-work-btn {
+    font-size: 12px;
+    margin-right: 11px;
+  }
+  .hire-me-btn {
+    font-size: 14px;
+  }
   /* projects */
   .project-container {
     grid-template-columns: auto;
@@ -687,6 +775,23 @@ body {
 }
 
 @media only screen and (max-width: 440px) {
+  /* home left */
+  .my-work-btn {
+    font-size: 11px;
+    margin-right: 11px;
+  }
+  .hire-me-btn {
+    font-size: 13px;
+  }
+  .greeting {
+    font-size: 1rem;
+  }
+  .my-name {
+    font-size: 1.5rem;
+  }
+  .caption {
+    font-size: 0.7rem;
+  }
   /* projects */
   .project-container {
     padding: 1rem;
