@@ -236,6 +236,10 @@ body {
   border-radius: 15px;
   margin-right: 10px;
 }
+.view-project a {
+  text-decoration: none;
+  color: black;
+}
 .github a {
   font-size: 13px;
   font-weight: 600;
