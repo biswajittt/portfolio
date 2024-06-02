@@ -749,6 +749,10 @@ body {
 }
 
 @media only screen and (max-width: 640px) {
+  /* navbar */
+  #navbar #logo {
+    font-size: 18px;
+  }
   /* home left */
 
   .greeting {
@@ -907,10 +911,10 @@ body {
     margin-right: 11px;
   }
   .my-resume-btn {
-    font-size: 13px;
+    font-size: 11px;
   }
   .greeting {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .my-name {
     font-size: 1.5rem;
@@ -944,6 +948,24 @@ body {
   }
 }
 @media only screen and (max-width: 333px) {
+  .home {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .work-hireme-button {
+    display: flex;
+    flex-direction: column;
+  }
+  .hire-me-btn {
+    width: 4.9rem;
+    height: 35px;
+    margin-bottom: 11px;
+    font-size: 13px;
+  }
+  .my-resume-btn {
+    width: 6.7rem;
+    height: 36px;
+    font-size: 13px;
+  }
   .skills-container {
     grid-template-columns: repeat(2, auto);
     gap: 20px;
